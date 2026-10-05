@@ -63,6 +63,8 @@ sourcecodester_hoteldb.sql  Database dump
 
 Bug fixes, documentation improvements, UI refinements, and focused feature improvements are welcome through issues and pull requests.
 
+> If this project is useful to you, consider starring the repository. It helps you find it again and helps other developers discover the project.
+
 ## More Projects by Salekh
 
 - [Inventory Management Desktop App](https://github.com/AlakhiarovSalekh/Inventory-App) — Python/PyQt inventory and business workflows.
