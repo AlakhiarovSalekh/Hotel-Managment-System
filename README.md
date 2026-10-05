@@ -1,4 +1,4 @@
-# Hotel Booking Management System
+# PHP MySQL Hotel Booking Management System
 
 [![PHP](https://img.shields.io/badge/PHP-Web%20Application-777BB4?logo=php&logoColor=white)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
