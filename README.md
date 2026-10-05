@@ -1,50 +1,68 @@
 # Hotel Booking Management System
 
-The Hotel Booking Management System is a simple web application developed using PHP, MySQL, JavaScript, HTML, CSS, Bootstrap, Ajax, and jQuery. The system features an admin dashboard to monitor customer bookings, manage users, approve reservations, update statuses, and more.
+[![PHP](https://img.shields.io/badge/PHP-Web%20Application-777BB4?logo=php&logoColor=white)](https://www.php.net/)
+[![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Stars](https://img.shields.io/github/stars/AlakhiarovSalekh/Hotel-Managment-System?style=social)](https://github.com/AlakhiarovSalekh/Hotel-Managment-System/stargazers)
+
+A PHP and MySQL hotel booking management system with customer booking flows and an administrative interface for rooms, reservations, users, room categories, and site settings.
 
 ## Features
 
-### Admin Dashboard
+### Administration
+- Monitor customer bookings
+- Manage room availability and room status
+- View booked, check-in, and check-out records
+- Manage room categories, pricing, and images
+- Manage rooms and availability
+- Manage application users
+- Configure hotel information and contact details
 
-- **Booking**: Monitor customer bookings
-- **Rooms**: Manage room availability
-- **Booked**: View booked entries with ID, category, reference, status, and search functionality
-- **Check In**: Filter by category, ID, and room status
-- **Check Out**: View and search check-out entries
-- **Room Category List**: Manage room categories with form, price, image, and edit/delete options
-- **Rooms**: Manage rooms with form, category, availability, status, edit/delete options
-- **Users**: Manage users with name, username, password, user type, ID, edit/delete options
-- **Site Settings**: Configure hotel name, email, contact number, about content
+### Customer experience
+- Browse available rooms
+- View hotel information
+- Create room bookings
 
-### User Dashboard
+## Tech Stack
 
-- **Room**: View available rooms
-- **Home**: Access the homepage
-- **About Us**: Learn about the hotel
-- **Booking**: Book a room
+- PHP
+- MySQL
+- HTML5 / CSS3
+- JavaScript
+- Bootstrap
+- Ajax
+- jQuery
 
-## Technologies Used
+## Repository Structure
 
-- **Name of Project**: Hotel Booking Management System
-- **Language Used**: PHP
-- **Database Used**: MySQL
-- **Design Interface**: Bootstrap, JavaScript, HTML, Ajax, jQuery
-- **Browsers**: Opera, Mozilla, Google Chrome, IE8
-- **Software**: WAMP/XAMPP/LAMP/MAMP
+```text
+assets/        Frontend assets
+css/           Stylesheets
+database/      Database-related files
+images/        Image assets
+js/            Client-side scripts
+db.php         Database connection
+index.php      Application entry point
+sourcecodester_hoteldb.sql  Database dump
+```
 
-## Note
+## Local Setup
 
-One folder was not uploaded due to its large size. Please download it separately from the provided link.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AlakhiarovSalekh/Hotel-Managment-System.git
+   ```
+2. Place the project under your local PHP server root, such as XAMPP `htdocs`.
+3. Start Apache and MySQL.
+4. Create a local MySQL database and import `sourcecodester_hoteldb.sql`.
+5. Update `db.php` to match your local database configuration.
+6. Open the project through your local web server.
 
-## How to Setup This Project
+> This repository is intended for development/learning use. Review authentication, credentials, validation, and deployment configuration before exposing it to the public internet.
 
-1. **Download XAMPP**: Install XAMPP from the official website.
-2. **Text Editor**: Use Notepad++ or Sublime Text.
-3. **Download Project**: Download the zip file or use WinRAR to extract it.
-4. **Extract Files**: Extract the file and copy the “Hotel_Booking_Management_System” folder.
-5. **Paste Folder**: Paste the folder into the root directory (e.g., `C:\xampp\htdocs`).
-6. **Open PHPMyAdmin**: Navigate to [PHPMyAdmin](http://localhost/phpmyadmin).
-7. **Create Database**: Create a database named `hotel_db`.
-8. **Import SQL File**: Import the `hotel_db.sql` file from the SQL folder inside the zip package.
-9. **Run the Script**: Access the project at [http://localhost/Hotel_Booking_Management_System](http://localhost/Hotel_Booking_Management_System).
-10. **Login**: Use the credentials `Username: admin` / `Password: admin123`.
+## Contributing
+
+Bug fixes, documentation improvements, UI refinements, and focused feature improvements are welcome through issues and pull requests.
+
+## Author
+
+**Salekh Alakhiarov** · [GitHub](https://github.com/AlakhiarovSalekh)
