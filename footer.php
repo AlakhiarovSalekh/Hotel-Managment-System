@@ -17,7 +17,7 @@
         url:$url,
         error:err=>{
             console.log()
-            alert("An error occured")
+            alert("An error occurred")
         },
         success:function(resp){
             if(resp){
