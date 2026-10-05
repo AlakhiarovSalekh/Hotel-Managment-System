@@ -63,6 +63,12 @@ sourcecodester_hoteldb.sql  Database dump
 
 Bug fixes, documentation improvements, UI refinements, and focused feature improvements are welcome through issues and pull requests.
 
+## More Projects by Salekh
+
+- [Inventory Management Desktop App](https://github.com/AlakhiarovSalekh/Inventory-App) — Python/PyQt inventory and business workflows.
+- [Food Ordering App](https://github.com/AlakhiarovSalekh/Food-Ordering-App) — Java Swing client-server ordering system.
+- [SalekhPos](https://github.com/AlakhiarovSalekh/SalekhPos) — multi-branch retail/POS platform under active development.
+
 ## Author
 
 **Salekh Alakhiarov** · [GitHub](https://github.com/AlakhiarovSalekh)
